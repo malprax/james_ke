@@ -1,18 +1,72 @@
-<div class="container">
-  <h1>Welcome James Ke</h1>
-  <p>"What Do You Want To Search"
-  <form class="form-search">
-    <div class="input-prepend">
-      <button type="submit" class="btn btn-huge"><span class="fui-search"></span></button>
-      <input type="text" class="span8 huge search-query search-query-rounded" placeholder="Search" id="search-query-2"></input>
-    </div>
-  </form>
-  </p>
-  <hr>
-  <hr>
-  <hr>
-  <hr>
-  <hr>
-  <hr>
+<div class="container-fluid">
+  <div class="row-fluid">
+    
+      <hr>
+      
+      <div class="row-fluid ">
+       <%= render "home/profil" %>
+      </div>
+      
+      <div class="row-fluid">
+        <div class="span9 ">
+            <!--Body content-->
+            <div class="row-fluid">
+              <div class="span3 offset1 "><center><%= render "home/social_link" %></center></div> 
+                           
+              <div class="span2 offset6"><u><%= link_to "Contact Info", "#" %></u></div>
+            </div>
+            
+            <%= render "home/navigation" %>
+            <div class="row-fluid">
+              <%= render "home/content" %>             
+            </div>
+            
+        </div> 
+            
+        <div class="span3">
+          <hr>
+          <%= render "home/iklan" %>
+          <%= render "home/iklan" %>
+          <%= render "home/iklan" %>
+          <%= render "home/iklan" %>
+        </div>     
+      </div>  
+  </div>
   
 </div>
+
+
+
+
+
+  
+    
+        
+       
+
+       
+      
+      
+      
+          
+        
+             
+  
+             
+  
+               
+          
+               
+               
+       
+          
+          
+     
+
+       
+
+    
+      
+    
+  
+

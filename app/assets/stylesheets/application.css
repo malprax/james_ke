@@ -12,6 +12,7 @@
  *= require bootstrap-responsive
  *= require prettify
  *= require flat-ui
+ *= require styling
  *= require_self
  *= require_tree .
  */
